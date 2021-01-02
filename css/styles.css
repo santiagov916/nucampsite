@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans", sanst serif;
+    font-family: "Open Sans", sans serif;
 }
 
 h1, h2, h3 {
@@ -12,8 +12,9 @@ h2 {
 header h2 {
     color: #CEC8FF;
 }
-footer {
+.site-footer {
     background-image: linear-gradient(#CEC8FF, white);
+    padding:20px;
 }
 .jumbotron {
     margin: 0;
@@ -29,4 +30,24 @@ color:white;
 
 .navbar {
     background-color: #901CAD;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+      border-top:none;
+      padding: 10px;
+  }     
+
+.carousel-caption {
+        background-color: rgba(0,0,0,0.5);
+}
+.carousel {
+    border: solid #5637DD;
+}
+
+#carouselButton {
+    position:absolute ;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
